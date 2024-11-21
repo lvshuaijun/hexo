@@ -1,0 +1,123 @@
+# ========== Profile ========== #
+# avatar
+avatar: /avatar/WechatIMG5.jpeg
+# author name
+author: ShuaiJun
+# signature
+signature: Searching for Oasis in my Life
+# SNS (you can custom the order)
+social:
+  email: 617543247@qq.com
+  github: https://github.com/lvshuaijun
+  # wechat and qq should be a path of qr-code image
+  wechat: /assets/WechatIMG3.jpeg
+  qq: /assets/WechatIMG7.jpeg
+  telegram: 
+  weibo: 
+  zhihu: 
+  douban: 
+  facebook: 
+  twitter: 
+  instagram: 
+  stack-overflow: 
+  segmentFault: 
+  juejin: 
+  v2ex: Lsj777
+  bilibili: 
+  linkedin: 
+  steam: 
+  others: 
+  rss: 
+  # friends
+friends:
+  小白博客: "https://blog.xbss.net" 
+  Class4ever: "http://www.class4ever.com/"
+  panr: "https://when.run/"
+  梁建忠: "https://blog.leungjz.top/"
+  思有云: "https://www.ioiox.com/"
+  geekjc: "https://www.geekjc.com/"
+  星空无限: "https://liyangzone.com/"
+about:
+  enable: true
+  image: '/intro/about2.jpg'
+
+# ========== Site ========== #
+# title of the site (good for SEO)
+SEO_title: ...Home...
+# keywords for site (good for SEO)
+SEO_keywords:
+  - python
+  - 'App Reverse'
+  - 'Spider'
+# main title shown in header image
+main_title: Shuaijun‘s Grows Up
+# subtitle
+subtitle: it's better to burn out than to fade away
+# site haeder image
+site_header_image: '/intro/your_name4.jpeg'
+# post haeder image
+post_header_image: '/intro/post-bg.jpg'
+# 404 image
+_404_image: '/intro/404-bg.jpg'
+
+# ========== Search ========== #
+algolia_search:
+  enable: false
+  hits:
+    per_page: 10
+  labels:
+    input_placeholder: Search for Posts
+    hits_empty: "We did not find any results for the search: ${query}"
+    hits_stats: "${hits} results found in ${time} ms"
+
+# ========== Comment ========== #
+# Fill in the field to enable the corresponding comment plugin
+# If you want to add other comment plugin, edit in "custom.ejs"
+comment:
+  # Livere  site: https://livere.com/
+  livere_uid: MTAyMC80NTAyMy8yMTU0MQ==
+  # Disqus  site: https://disqus.com/
+  disqus_shortname: 
+  # Gitment  site: https://github.com/imsun/gitment
+  gitment_owner: 
+  gitment_repo: 
+  gitment_client_id: 
+  gitment_client_secret: 
+  # Youyan  site: http://www.uyan.cc/
+  youyan_uid: 
+  # Valine  site: https://valine.js.org/
+  valine_appId: 
+  valine_appKey: 
+  valine_placeHolder: 
+
+# ========== Analytics ========== #
+# enable Busuanzi analytics
+busuanzi: 
+ enable: true
+# fill in pv or uv
+busuanzi_pv_or_uv: 'pv'
+# custom analytic slogan, '${count}' is the analytic number, DO NOT modify it.
+busuanzi_slug: '小破站被看了 ${count} 次'
+# Baidu analytics
+baidu_analytics: mVpKnijEVG 
+# Google analytics
+google_analytics: 
+# CNZZ analytics
+CNZZ_analytics: 
+
+# ========== Others ========== #
+# favicon
+favicon: /assets/favicon.ico
+# truncate length of abstracts in index page (the default is 300, there will be no abstruct if you input 0)
+truncate_length: 
+# enable toc
+toc: true
+# word count & reading time
+reading_info: true
+# intro height (the default is 50 percents of the screen, you can input other number)
+index_intro_height: 60
+post_intro_height: 50
+about_intro_height: 45
+# copyright
+copyright:
+  enable: 
