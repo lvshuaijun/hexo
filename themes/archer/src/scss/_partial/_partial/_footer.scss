@@ -38,6 +38,7 @@
 // ========== busuanzi ========== //≈
 .busuanzi-container {
   text-align: center;
+  font-size: 14px;    /* 字体大小 */
 }
 
 #busuanzi_container_site_pv,
@@ -46,4 +47,19 @@
   text-align: center;
   font: 0.6rem $feature-font-family;
   color: #ddd;
+  font-size: 14px;    /* 字体大小 */
+}
+// =========== icp ============= //≈
+.footer .icp-record {
+    text-align: center; /* 居中对齐 */
+    margin-top: 10px;   /* 增加与其他部分的间距 */
+    font-size: 14px;    /* 字体大小 */
+    color: #b0b0b0;     /* 浅灰色 */
+}
+.footer .icp-record a {
+    text-decoration: none; /* 去除下划线 */
+    color: #b0b0b0;        /* 链接颜色与文字保持一致 */
+}
+.footer .icp-record a:hover {
+    color: #808080;        /* 鼠标悬浮时变为更深的灰色 */
 }
